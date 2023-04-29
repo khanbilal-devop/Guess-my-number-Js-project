@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #222;
+  color: #eee;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.between {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1.4rem;
+}
+
+.again{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.number{
+    background-color: #eee;
+    color: #222;
+    font-size: 6rem;
+    text-align: center;
+    width: 15rem;
+    padding: 3rem 0rem;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+header{
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+}
+
+.btn {
+   font-family: inherit;
+   border: none;
+   background-color: #eee;
+   padding: 2rem 3rem;
+   font-size: 2rem;
+   cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 52rem;
+}
+
+.guess{
+    font-family: inherit;
+    font-size: 5rem;
+    width: 25rem;
+    color: inherit;
+    border: 4px solid #eee;
+    background: none;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+main{
+    height : 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.right{
+    width : 52rem;
+    font-size: 2rem;
+}
+
+.label-score {
+    margin-bottom: 2rem;
+  }
+  
+
+.message{
+    font-size: 2rem;
+    margin-bottom: 9rem;
+}
+
+
+.btn:disabled{
+  color: #222;
+  pointer-events: none;
+}
